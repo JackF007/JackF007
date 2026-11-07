@@ -122,23 +122,18 @@ $ gh search prs --author=JackF007 --merged
 
 ## 🧭 Journey · work
 
-```console
-$ git log --oneline --reverse career
-2017  alteredu     Digital PM · led Demopen with a remote team of 5 mobile devs
-2019  servizi-st   IT PM & L2 support · CMDBuild integration, ITIL
-2020  registered   co-founded · Co-founder & CTO
-2020  freelance    IT consultant for SMEs & startups, until 2025
-2025  tabello      open-source tabs from any recording · public beta
-2026  registered   closed after six years · ~50 events, tens of thousands of registrations
-2026  scripta      agentic AI coaching app · in progress          (HEAD -> now)
-```
+<p align="center">
+  <img src="assets/journey.svg" width="100%" alt="My career as a colored git graph. Career lane: 2017 Alteredu, Digital PM; 2019 Servizi s.t., IT PM and L2 support; 2020 co-founded Registered as CTO; 2026 Registered closed; 2026 Scripta, in progress. Freelance lane, 2020 to 2025: Labconsulenze, APL System, DenunciaOnline. Side projects and open source lane: 2018 Demopen (mine) and AlboPOP (contribution), 2025 TaBello (mine), 2026 DoveVannoINostriSoldi PR #768 (contribution).">
+</p>
+
+<p align="center"><sub>🟢 career · 🔵 freelance · 🟣 side projects &amp; open source</sub></p>
 
 <table>
 <tr>
 <td>
 
-**Registered** · the marketplace for the dance world · `[CLOSED]`  
-Co-founder &amp; CTO · Mar 2020 - Jun 2026 · Rome, remote  
+🟢 **Registered** · the marketplace for the dance world  
+<img src="https://img.shields.io/badge/Co--founder%20%26%20CTO-Mar%202020%20%E2%86%92%20Jun%202026-3fb950?style=flat-square&labelColor=0d1117" alt="Co-founder &amp; CTO · Mar 2020 → Jun 2026"> <img src="https://img.shields.io/badge/closed-6e7681?style=flat-square" alt="closed"> · Rome, remote  
 Led architecture and development of the e-commerce platform, from scoping to production, managing 3 external developers: a web app in four languages (IT, EN, FR, DE), a shop for every organizer, group registrations and Stripe payments. Ran registrations for nearly 50 national and international dance events, including Hip Hop International Italy and Switzerland: tens of thousands of online registrations. Incubated by the Culttech accelerator in Vienna.  
 `AWS` `Stripe` `Vue.js` `Laravel` `MySQL` `Plesk`
 
@@ -147,14 +142,15 @@ Led architecture and development of the e-commerce platform, from scoping to pro
 <tr>
 <td>
 
-**Independent IT consultant** · development, integrations and technical consulting for SMEs and startups  
-Freelance · Oct 2020 - Nov 2025 · Italy and remote
+🔵 **Independent IT consultant** · development, integrations and technical consulting for SMEs and startups  
+<img src="https://img.shields.io/badge/Freelance-Oct%202020%20%E2%86%92%20Nov%202025-58a6ff?style=flat-square&labelColor=0d1117" alt="Freelance · Oct 2020 → Nov 2025"> · Italy and remote
 
 - **[APL System](https://www.aplsystem.it/)** (2022-2025) · analyst developer: built from scratch *Contratti APL*, the in-house CRM for e-invoices and contracts; integrated bulk invoice sending with the FTPA TosNet REST APIs; managed a fleet of VMware ESXi virtual machines, in-house and at clients' sites; coordinated the new company website.  
   `Visual FoxPro 9` `SQL Server` `REST API` `VMware ESXi` `WordPress`
 - **[DenunciaOnline](https://www.denunciaonline.eu/)** (2024) · back-end developer: APIs, webhooks, Slack and Calendly integrations.  
   `JavaScript` `React` `REST API` `Bitbucket`
-- **[Labconsulenze](https://www.labconsulenze.it/)** (2020-2022) · technical contact for municipal police departments: requirements gathering, technical advice and officer training.
+- **[Labconsulenze](https://www.labconsulenze.it/)** (2020-2022) · ran the whole print office for municipal police notices (Highway Code): prepared the print and mailing data flows, checked the files and handled the electronic submissions. Also the technical contact for municipal police departments: requirements gathering, technical advice and officer training.  
+  `data flows` `file validation` `electronic submission`
 - **Client websites**: [rosaneldeserto.it](https://rosaneldeserto.it/) (Flazio), boskiebowloskie.com (Webflow).
 
 </td>
@@ -162,8 +158,8 @@ Freelance · Oct 2020 - Nov 2025 · Italy and remote
 <tr>
 <td>
 
-**[Servizi s.t.](https://www.servizist.it/)** · IT Project Manager &amp; level-2 support  
-Jan 2019 - Mar 2020 · Bolzano  
+🟢 **[Servizi s.t.](https://www.servizist.it/)** · ITSM for a transport company in South Tyrol  
+<img src="https://img.shields.io/badge/IT%20PM%20%26%20L2%20support-Jan%202019%20%E2%86%92%20Mar%202020-3fb950?style=flat-square&labelColor=0d1117" alt="IT PM &amp; L2 support · Jan 2019 → Mar 2020"> · Bolzano  
 Led the in-house integration of CMDBuild (open-source CMDB and ITSM platform) for a transport company in South Tyrol: support processes digitised, CI modelling, go-live. Optimised processes and data management with an ITIL approach; handled level-2 escalations.  
 `CMDBuild` `ITSM` `ITIL`
 
@@ -172,8 +168,8 @@ Led the in-house integration of CMDBuild (open-source CMDB and ITSM platform) fo
 <tr>
 <td>
 
-**Alteredu** · certified online learning platform  
-Digital Project Manager · Dec 2017 - Dec 2018 · Rende  
+🟢 **[Alteredu](https://www.alteredu.it/)** · certified online learning platform · the trailhead  
+<img src="https://img.shields.io/badge/Digital%20Project%20Manager-Dec%202017%20%E2%86%92%20Dec%202018-3fb950?style=flat-square&labelColor=0d1117" alt="Digital Project Manager · Dec 2017 → Dec 2018"> · Rende  
 Led the development of Demopen, coordinating a remote outsourced team of 5 mobile developers. Improved the website and the online courses with the lead developer.  
 `WordPress` `WooCommerce`
 

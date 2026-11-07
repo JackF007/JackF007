@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 528" width="1000" height="528" role="img" aria-label="Career as a git graph, from Alteredu in 2017 to Scripta in 2026">
+<title>Journey · git log --graph career</title>
+<defs>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="120%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#000" flood-opacity=".28"/></filter>
+<filter id="glow" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="term"><rect x="20" y="16" width="960" height="490" rx="12"/></clipPath>
+</defs>
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+.lane{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 2.4s ease-out .4s both}
+.row{animation:rise .45s ease-out var(--l,0s) both}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2s ease-out 3s infinite both}
+.fly{animation:flicker var(--d,4s) ease-in-out var(--l,0s) infinite both}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes rise{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}80%,100%{opacity:0;transform:scale(2.6)}}
+@keyframes flicker{0%,100%{opacity:.15}45%{opacity:1}60%{opacity:.8}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g filter="url(#shadow)"><rect x="20" y="16" width="960" height="490" rx="12" fill="#0d1117"/></g>
+<rect x="20" y="16" width="960" height="490" rx="12" fill="#0d1117"/>
+<g clip-path="url(#term)"><path d="M620.0,455.5L625.9,476.5L614.1,476.5ZM620.0,467.1L629.6,487.0L610.4,487.0ZM620.0,478.6L633.3,497.5L606.7,497.5ZM644.7,440.4L652.3,467.5L637.1,467.5ZM644.7,455.3L657.0,481.0L632.4,481.0ZM644.7,470.2L661.8,494.5L627.7,494.5ZM668.3,453.7L674.4,475.4L662.2,475.4ZM668.3,465.7L678.2,486.3L658.4,486.3ZM668.3,477.6L682.0,497.1L654.6,497.1ZM693.4,464.1L698.3,481.7L688.4,481.7ZM693.4,473.8L701.4,490.4L685.3,490.4ZM693.4,483.4L704.4,499.2L682.3,499.2ZM717.5,449.8L724.0,473.1L711.0,473.1ZM717.5,462.6L728.1,484.7L706.9,484.7ZM717.5,475.4L732.2,496.4L702.8,496.4ZM745.0,467.0L749.6,483.4L740.4,483.4ZM745.0,476.0L752.5,491.6L737.5,491.6ZM745.0,485.0L755.4,499.8L734.7,499.8ZM766.7,467.1L771.3,483.5L762.1,483.5ZM766.7,476.1L774.1,491.6L759.2,491.6ZM766.7,485.1L777.0,499.8L756.3,499.8ZM794.4,447.8L801.1,471.9L787.6,471.9ZM794.4,461.1L805.4,483.9L783.4,483.9ZM794.4,474.3L809.6,496.0L779.2,496.0ZM812.9,438.6L820.7,466.3L805.1,466.3ZM812.9,453.8L825.5,480.2L800.2,480.2ZM812.9,469.1L830.4,494.1L795.3,494.1ZM842.4,449.1L849.1,472.6L835.8,472.6ZM842.4,462.0L853.2,484.4L831.7,484.4ZM842.4,475.0L857.3,496.2L827.6,496.2ZM867.8,465.0L872.7,482.2L863.0,482.2ZM867.8,474.4L875.7,490.8L860.0,490.8ZM867.8,483.9L878.7,499.4L857.0,499.4ZM886.0,453.1L892.2,475.1L879.8,475.1ZM886.0,465.2L896.0,486.0L876.0,486.0ZM886.0,477.3L899.9,497.0L872.2,497.0ZM904.7,463.9L909.7,481.5L899.8,481.5ZM904.7,473.6L912.8,490.4L896.7,490.4ZM904.7,483.3L915.9,499.2L893.6,499.2ZM925.6,469.0L930.0,484.6L921.2,484.6ZM925.6,477.6L932.7,492.4L918.5,492.4ZM925.6,486.2L935.5,500.2L915.8,500.2ZM949.2,455.9L955.1,476.7L943.3,476.7ZM949.2,467.4L958.7,487.2L939.7,487.2ZM949.2,478.8L962.4,497.6L936.0,497.6ZM977.3,453.4L983.5,475.2L971.2,475.2ZM977.3,465.4L987.3,486.2L967.3,486.2ZM977.3,477.4L991.1,497.1L963.5,497.1Z" fill="#12291f" opacity=".85"/>
+<g filter="url(#glow)">
+<circle class="fly" cx="782.4" cy="474.1" r="1.77" fill="#ffd96b" style="--d:3.2s;--l:-6.0s"/>
+<circle class="fly" cx="963.4" cy="485.6" r="1.97" fill="#ffd96b" style="--d:3.3s;--l:-1.4s"/>
+<circle class="fly" cx="705.5" cy="435.6" r="2.01" fill="#ffd96b" style="--d:3.5s;--l:-5.1s"/>
+<circle class="fly" cx="741.1" cy="493.3" r="2.08" fill="#ffd96b" style="--d:2.5s;--l:-1.3s"/>
+<circle class="fly" cx="932.2" cy="461.5" r="2.18" fill="#ffd96b" style="--d:3.5s;--l:-0.4s"/>
+<circle class="fly" cx="829.8" cy="481.6" r="1.62" fill="#ffd96b" style="--d:2.7s;--l:-2.0s"/>
+<circle class="fly" cx="951.9" cy="480.3" r="1.49" fill="#ffd96b" style="--d:3.1s;--l:-0.6s"/>
+<circle class="fly" cx="621.9" cy="482.8" r="1.54" fill="#ffd96b" style="--d:3.9s;--l:-2.7s"/>
+<circle class="fly" cx="669.6" cy="478.6" r="1.50" fill="#ffd96b" style="--d:4.1s;--l:-0.7s"/>
+</g></g>
+<rect x="20.5" y="16.5" width="959" height="489" rx="12" fill="none" stroke="#30363d"/>
+<path d="M32,16 h936 a12,12 0 0 1 12,12 v18 h-960 v-18 a12,12 0 0 1 12,-12z" fill="#161b22"/>
+<line x1="20" y1="46" x2="980" y2="46" stroke="#30363d"/>
+<circle cx="40" cy="31" r="5.5" fill="#ff5f56"/>
+<circle cx="58" cy="31" r="5.5" fill="#ffbd2e"/>
+<circle cx="76" cy="31" r="5.5" fill="#27c93f"/>
+<text class="mono" x="500.0" y="36" text-anchor="middle" font-size="12.5" fill="#8b949e">giacomo@forest: ~/trail · journey</text>
+<text class="mono" x="44" y="78" font-size="16"><tspan fill="#3fb950">~/forest</tspan><tspan fill="#8b949e"> $ </tspan><tspan fill="#e6edf3">git log --graph --oneline career</tspan></text>
+<path class="lane" pathLength="1" d="M54,424 C54,411.0 98,411.0 98,398 V138" fill="none" stroke="#bc8cff" stroke-width="2.6" stroke-linecap="round"/>
+<path class="lane" pathLength="1" d="M54,320 C54,307.0 76,307.0 76,294 V242 C76,229.0 54,229.0 54,216" fill="none" stroke="#58a6ff" stroke-width="2.6" stroke-linecap="round"/>
+<path class="lane" pathLength="1" d="M54,424 V112" fill="none" stroke="#3fb950" stroke-width="2.6" stroke-linecap="round"/>
+<g class="row" style="--l:2.54s">
+<circle class="pulse" cx="54" cy="112" r="6" fill="none" stroke="#39c5cf" stroke-width="2"/>
+<circle cx="54" cy="112" r="5.6" fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="117" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2026</tspan>  <tspan fill="#3fb950" font-weight="700">scripta         </tspan> <tspan fill="#e6edf3">agentic AI coaching app · in progress</tspan>  <tspan fill="#39c5cf" font-weight="700">(HEAD -&gt; </tspan><tspan fill="#3fb950" font-weight="700">now</tspan><tspan fill="#39c5cf" font-weight="700">)</tspan></text></g>
+<g class="row" style="--l:2.37s">
+<circle cx="98" cy="138" r="5.6" fill="#bc8cff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="143" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2026</tspan>  <tspan fill="#bc8cff" font-weight="700">dvns #768       </tspan> <tspan fill="#c9d1d9">open-source contribution · Italian Builders · merged</tspan></text></g>
+<g class="row" style="--l:2.20s">
+<circle cx="54" cy="164" r="5.6" fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="169" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2026</tspan>  <tspan fill="#3fb950" font-weight="700">registered      </tspan> <tspan fill="#e6edf3">closed after six years · ~50 events served</tspan></text></g>
+<g class="row" style="--l:2.03s">
+<circle cx="98" cy="190" r="5.6" fill="#bc8cff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="195" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2025</tspan>  <tspan fill="#bc8cff" font-weight="700">tabello         </tspan> <tspan fill="#c9d1d9">my open-source tabs app · public beta</tspan></text></g>
+<g class="row" style="--l:1.86s">
+<circle cx="54" cy="216" r="6" fill="#0d1117" stroke="#58a6ff" stroke-width="2.4"/><circle cx="54" cy="216" r="2.6" fill="#3fb950"/>
+<text class="mono" x="128" y="221" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2025</tspan>  <tspan fill="#3fb950" font-weight="700">merge freelance </tspan> <tspan fill="#e6edf3">five years of consulting for SMEs &amp; startups</tspan></text></g>
+<g class="row" style="--l:1.69s">
+<circle cx="76" cy="242" r="5.6" fill="#58a6ff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="247" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2024</tspan>  <tspan fill="#58a6ff" font-weight="700">denunciaonline  </tspan> <tspan fill="#c9d1d9">back-end: APIs, webhooks, Slack &amp; Calendly</tspan></text></g>
+<g class="row" style="--l:1.52s">
+<circle cx="76" cy="268" r="5.6" fill="#58a6ff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="273" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2022</tspan>  <tspan fill="#58a6ff" font-weight="700">apl-system      </tspan> <tspan fill="#c9d1d9">CRM from scratch · REST APIs · VMware ESXi</tspan></text></g>
+<g class="row" style="--l:1.35s">
+<circle cx="76" cy="294" r="5.6" fill="#58a6ff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="299" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2020</tspan>  <tspan fill="#58a6ff" font-weight="700">labconsulenze   </tspan> <tspan fill="#c9d1d9">print office: data flows, file checks, e-submission</tspan></text></g>
+<g class="row" style="--l:1.18s">
+<circle cx="54" cy="320" r="5.6" fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="325" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2020</tspan>  <tspan fill="#3fb950" font-weight="700">registered      </tspan> <tspan fill="#e6edf3">co-founded · Co-founder &amp; CTO</tspan></text></g>
+<g class="row" style="--l:1.01s">
+<circle cx="54" cy="346" r="5.6" fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="351" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2019</tspan>  <tspan fill="#3fb950" font-weight="700">servizi-st      </tspan> <tspan fill="#e6edf3">IT PM &amp; L2 support · CMDBuild · ITIL</tspan></text></g>
+<g class="row" style="--l:0.84s">
+<circle cx="98" cy="372" r="5.6" fill="#bc8cff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="377" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2018</tspan>  <tspan fill="#bc8cff" font-weight="700">albopop         </tspan> <tspan fill="#c9d1d9">open-source contribution · rolled out in 6+ towns</tspan></text></g>
+<g class="row" style="--l:0.67s">
+<circle cx="98" cy="398" r="5.6" fill="#bc8cff" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="403" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2018</tspan>  <tspan fill="#bc8cff" font-weight="700">demopen         </tspan> <tspan fill="#c9d1d9">my social network for PA services</tspan></text></g>
+<g class="row" style="--l:0.50s">
+<circle cx="54" cy="424" r="5.6" fill="#3fb950" stroke="#0d1117" stroke-width="2"/>
+<text class="mono" x="128" y="429" font-size="15" xml:space="preserve"><tspan fill="#e3b341">2017</tspan>  <tspan fill="#3fb950" font-weight="700">alteredu        </tspan> <tspan fill="#e6edf3">Digital PM · the trailhead</tspan></text></g>
+<g class="row" style="--l:2.71s" font-size="13">
+<circle cx="49" cy="476" r="5" fill="#3fb950"/><text class="mono" x="60" y="480" fill="#8b949e">career</text>
+<circle cx="147" cy="476" r="5" fill="#58a6ff"/><text class="mono" x="158" y="480" fill="#8b949e">freelance</text>
+<circle cx="269" cy="476" r="5" fill="#bc8cff"/><text class="mono" x="280" y="480" fill="#8b949e">side projects &amp; open source</text>
+</g>
+</svg>
