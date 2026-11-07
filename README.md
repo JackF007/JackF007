@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-    <img src="assets/banner-light.svg" width="100%" alt="A terminal in a forest at night: ./trail --start prints Giacomo Ferlaino, IT Project Manager, Founder &amp; Engineer, Paris">
+    <img src="assets/banner-light.svg" width="100%" alt="A terminal in a forest at night: ./trail --start prints Giacomo Ferlaino, IT Project Manager, Founder &amp; Engineer, Paris, open-source contributor">
   </picture>
 </p>
 
@@ -38,12 +38,12 @@ const giacomo = {
   shipping: "software from the idea to production, since 2017",
   previously: "Co-founder & CTO @ Registered",
   building: ["Scripta", "TaBello"],          // agentic AI · open source
-  contributesTo: ["DoveVannoINostriSoldi"],  // open source owned by others
+  contributesTo: ["open-source tools", "DoveVannoINostriSoldi"],  // owned by others
   speaks: ["it", "fr", "en", "es"],
 } as const;
 ```
 
-I work between the people who ask for software and the people who build it. I co-founded **Registered**, a marketplace for the dance world, and was its CTO all the way to the Culttech accelerator in Vienna; along the way I worked as an independent consultant and IT project manager for SMEs and startups. Today I build generative and agentic AI apps and open-source tools.
+I work between the people who ask for software and the people who build it. I co-founded **Registered**, a marketplace for the dance world, and was its CTO all the way to the Culttech accelerator in Vienna; along the way I worked as an independent consultant and IT project manager for SMEs and startups. Today I build generative and agentic AI apps and my own open-source tools, and I contribute to open-source tools and projects maintained by others.
 
 > My full CV is a 3D forest you can walk through: **[giacomoferlaino.com](https://www.giacomoferlaino.com/en/)** · or the [classic CV](https://www.giacomoferlaino.com/en/cv)
 
@@ -105,7 +105,7 @@ A social network to access Italian public administration services, before the of
 
 ## 🤝 Shared trails · open-source contributions
 
-Projects **owned and maintained by others**, where I contributed.
+I contribute to open-source tools and projects **owned and maintained by others**. A few of them:
 
 ```console
 $ gh search prs --author=JackF007 --merged
@@ -161,7 +161,7 @@ Freelance · Oct 2020 - Nov 2025 · Italy and remote
 <tr>
 <td>
 
-**Servizi s.t.** · IT Project Manager &amp; level-2 support  
+**[Servizi s.t.](https://www.servizist.it/)** · IT Project Manager &amp; level-2 support  
 Jan 2019 - Mar 2020 · Bolzano  
 Led the in-house integration of CMDBuild (open-source CMDB and ITSM platform) for a transport company in South Tyrol: support processes digitised, CI modelling, go-live. Optimised processes and data management with an ITIL approach; handled level-2 escalations.  
 `CMDBuild` `ITSM` `ITIL`
