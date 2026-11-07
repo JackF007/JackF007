@@ -1,12 +1,9 @@
-<h1 align="center">Giacomo Ferlaino</h1>
-
 <p align="center">
-  <strong>IT Project Manager · Founder &amp; Engineer</strong><br>
-  I take software projects from the idea to production, between the people who ask for them and the people who build them.
-</p>
-
-<p align="center">
-  Full-stack · AI apps · open source · civic tech · Paris, France
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="A terminal in a forest at night: ./trail --start prints Giacomo Ferlaino, IT Project Manager, Founder &amp; Engineer, Paris">
+  </picture>
 </p>
 
 <p align="center">
@@ -18,43 +15,63 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project%20Manager-111111?style=for-the-badge" alt="Project Manager">
-  <img src="https://img.shields.io/badge/Founder%20%26%20CTO-111111?style=for-the-badge" alt="Founder &amp; CTO">
-  <img src="https://img.shields.io/badge/Full--Stack-111111?style=for-the-badge" alt="Full-Stack">
-  <img src="https://img.shields.io/badge/AI%20Apps-111111?style=for-the-badge" alt="AI Apps">
-  <img src="https://img.shields.io/badge/Open%20Source-111111?style=for-the-badge" alt="Open Source">
+  <code>$ trail --map</code><br><br>
+  <a href="#start">🌲 start</a> ──▶
+  <a href="#camp">🏕️ camp</a> ──▶
+  <a href="#shared-trails">🤝 shared trails</a> ──▶
+  <a href="#journey">🧭 journey</a> ──▶
+  <a href="#backpack">🎒 backpack</a> ──▶
+  <a href="#lookout">🔭 lookout</a>
 </p>
 
 ---
 
-## About
+<a id="start"></a>
 
-Since 2017 I've been taking software projects from the idea to production. I co-founded **Registered**, a marketplace for the dance world, and was its CTO all the way to the Culttech accelerator in Vienna. Along the way I worked as an independent consultant and IT project manager for SMEs and startups.
+## 🌲 Start · about me
 
-Today I build generative and agentic AI apps, like **Scripta**, and open-source tools, like **[TaBello](https://github.com/JackF007/taBello)**: it turns any recording into guitar, bass and ukulele tabs, 100% on your computer. I also contribute to other people's open-source projects, like **[DoveVannoINostriSoldi](https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi)**.
+```ts
+// ~/forest/start/about.ts
+const giacomo = {
+  role: ["IT Project Manager", "Founder & Engineer"],
+  basedIn: "Paris, France",
+  shipping: "software from the idea to production, since 2017",
+  previously: "Co-founder & CTO @ Registered",
+  building: ["Scripta", "TaBello"],          // agentic AI · open source
+  contributesTo: ["DoveVannoINostriSoldi"],  // open source owned by others
+  speaks: ["it", "fr", "en", "es"],
+} as const;
+```
 
-I work in Italian, French, English and Spanish.
+I work between the people who ask for software and the people who build it. I co-founded **Registered**, a marketplace for the dance world, and was its CTO all the way to the Culttech accelerator in Vienna; along the way I worked as an independent consultant and IT project manager for SMEs and startups. Today I build generative and agentic AI apps and open-source tools.
 
-> Full CV, as a 3D forest to walk through: **[giacomoferlaino.com](https://www.giacomoferlaino.com/en/)**
+> My full CV is a 3D forest you can walk through: **[giacomoferlaino.com](https://www.giacomoferlaino.com/en/)** · or the [classic CV](https://www.giacomoferlaino.com/en/cv)
 
-## My projects
+<a id="camp"></a>
+
+## 🏕️ Camp · my projects
+
+```console
+$ ls ~/projects
+taBello/   scripta/   giacomoferlaino.com/   demopen/
+```
 
 <table>
 <tr>
 <td>
 
-**Now · [TaBello](https://github.com/JackF007/taBello)** · turn any recording into guitar, bass and ukulele tabs · `[LIVE · BETA]`  
+**📂 [taBello/](https://github.com/JackF007/taBello)** · turn any recording into guitar, bass and ukulele tabs · `[LIVE · BETA]`  
 Creator · 2025 -  
-Free, open-source desktop app I built for my own guitar. It detects the notes with a machine-learning model, isolates the instrument from a band recording (Demucs), reads the frets from the hand in videos (MediaPipe) and writes notation plus tablature with chords, techniques and tempo changes. Playback, loop and slow-down, export to Guitar Pro and MIDI. No account, no upload: it runs entirely offline.  
+A free, open-source desktop app I built for my own guitar. It detects the notes with a machine-learning model, isolates the instrument from a band recording (Demucs), reads the frets from the hand in videos (MediaPipe) and writes notation plus tablature with chords, techniques and tempo changes. Playback, loop and slow-down, export to Guitar Pro and MIDI. No account, no upload: it runs entirely offline.  
 `TypeScript` `React` `Electron` `TensorFlow.js` `ONNX Runtime` `Demucs` `FFmpeg`  
-[GitHub](https://github.com/JackF007/taBello) · GPL-3.0
+[Source code](https://github.com/JackF007/taBello) · GPL-3.0
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Now · Scripta** · agentic AI coaching in your pocket · `[IN PROGRESS]`  
+**📂 scripta/** · agentic AI coaching in your pocket · `[IN PROGRESS]`  
 Concept &amp; development · 2026 -  
 An agentic AI mobile app for personal growth, writing and conversational coaching.  
 `TypeScript` `Python` `Openfang` `Groq` `PostgreSQL` `RevenueCat` `Hetzner` `Cloudflare`
@@ -64,37 +81,57 @@ An agentic AI mobile app for personal growth, writing and conversational coachin
 <tr>
 <td>
 
-**Now · [giacomoferlaino.com](https://www.giacomoferlaino.com/en/)** · my CV as a 3D forest · `[LIVE]`  
+**📂 [giacomoferlaino.com/](https://www.giacomoferlaino.com/en/)** · my CV as a 3D forest · `[LIVE]`  
 Concept, writing &amp; development · 2026 -  
 A CV in three languages (EN, FR, IT) to explore by walking through a 3D forest, with ambient sound, a 2D fallback and a chess board where you can play against an easy version of me. Designed, written and built by me.  
-`TypeScript` `Three.js` `Vite` `Web Audio` `Cloudflare`  
-[giacomoferlaino.com](https://www.giacomoferlaino.com/en/)
+`TypeScript` `Three.js` `Vite` `Web Audio` `Cloudflare`
 
 </td>
 </tr>
 <tr>
 <td>
 
-**Demopen** · public-administration services as a social network · `[NEVER LAUNCHED]`  
+**📂 demopen/** · public-administration services as a social network · `[NEVER LAUNCHED]`  
 Founder &amp; project manager · 2018  
-A social network to access Italian public administration services before the official IO app existed: news, investment calls, public competitions by field, downloadable documents and open data. Finished, never reached the market.  
+A social network to access Italian public administration services, before the official IO app existed: news, investment calls, public competitions by field, downloadable documents and open data. Finished, never reached the market.  
 `Java` `Android` `PHP` `JavaScript` `AWS`  
-[Android](https://github.com/JackF007/demOpen_Android) · [Back-end](https://github.com/JackF007/dmeOpen_PHP)
+[Android app](https://github.com/JackF007/demOpen_Android) · [Back-end](https://github.com/JackF007/dmeOpen_PHP)
 
 </td>
 </tr>
 </table>
 
-## Open source contributions
+<a id="shared-trails"></a>
 
-Projects owned and maintained by others, where I contributed.
+## 🤝 Shared trails · open-source contributions
+
+Projects **owned and maintained by others**, where I contributed.
+
+```console
+$ gh search prs --author=JackF007 --merged
+✔ #768  Italian-Builders-Org/DoveVannoINostriSoldi
+        fix(siope): headline without the partial month, consolidated totals side by side
+```
 
 | Project | Owner | My contribution |
 | --- | --- | --- |
 | **[DoveVannoINostriSoldi](https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi)** | [Italian Builders](https://github.com/Italian-Builders-Org) | Civic open-source atlas of Italian public spending, from official sources. [PR #768](https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi/pull/768) (merged): SIOPE headline without the partial month, with consolidated totals side by side. |
 | **[AlboPOP](https://albopop.it/)** | AlboPOP community | Open-source civic project that turns municipal notice boards into RSS feeds and Telegram channels. I brought it to 6+ municipalities in Calabria (Terranova da Sibari, Tarsia, Platania, Spezzano Albanese and others) and I'm [credited](https://albopop.it/comune/terranovadasibari/) as the author of their pages. |
 
-## Work
+<a id="journey"></a>
+
+## 🧭 Journey · work
+
+```console
+$ git log --oneline --reverse career
+2017  alteredu     Digital PM · led Demopen with a remote team of 5 mobile devs
+2019  servizi-st   IT PM & L2 support · CMDBuild integration, ITIL
+2020  registered   co-founded · Co-founder & CTO
+2020  freelance    IT consultant for SMEs & startups, until 2025
+2025  tabello      open-source tabs from any recording · public beta
+2026  registered   closed after six years · ~50 events, tens of thousands of registrations
+2026  scripta      agentic AI coaching app · in progress          (HEAD -> now)
+```
 
 <table>
 <tr>
@@ -143,19 +180,29 @@ Led the development of Demopen, coordinating a remote outsourced team of 5 mobil
 </tr>
 </table>
 
-## Tech stack
+<a id="backpack"></a>
 
-| Area | Tools |
-| --- | --- |
-| **Languages** | TypeScript · JavaScript · PHP · Python · Java · SQL |
-| **Front-end** | React · Vue.js · Three.js · Tailwind CSS · Vite |
-| **Back-end &amp; data** | Laravel · Node.js · Electron · PostgreSQL · MySQL · SQL Server · REST APIs · webhooks |
-| **AI / ML** | TensorFlow.js · ONNX Runtime · Demucs · MediaPipe · Groq · agentic workflows |
-| **Cloud &amp; infra** | AWS · Cloudflare · Hetzner · Docker · Linux · VMware ESXi · Git |
-| **Product &amp; delivery** | Project management · Agile · ITIL · Stripe · RevenueCat |
+## 🎒 Backpack · tech stack
+
+```console
+$ cat ~/backpack.json
+```
+
+```json
+{
+  "languages": ["TypeScript", "JavaScript", "PHP", "Python", "Java", "SQL"],
+  "frontend":  ["React", "Vue.js", "Three.js", "Tailwind CSS", "Vite"],
+  "backend":   ["Laravel", "Node.js", "Electron", "PostgreSQL", "MySQL", "SQL Server",
+                "REST APIs", "webhooks"],
+  "ai_ml":     ["TensorFlow.js", "ONNX Runtime", "Demucs", "MediaPipe", "Groq",
+                "agentic workflows"],
+  "infra":     ["AWS", "Cloudflare", "Hetzner", "Docker", "Linux", "VMware ESXi", "Git"],
+  "delivery":  ["Project management", "Agile", "ITIL", "Stripe", "RevenueCat"]
+}
+```
 
 <details>
-<summary><strong>Archive</strong>: older and smaller repositories</summary>
+<summary><code>$ ls -la ~/archive</code> · older and smaller repositories</summary>
 
 <br>
 
@@ -168,8 +215,20 @@ Led the development of Demopen, coordinating a remote outsourced team of 5 mobil
 
 </details>
 
----
+<a id="lookout"></a>
+
+## 🔭 Lookout · contact
+
+```console
+$ exit
+logout: the trail ends here, the conversation doesn't.
+```
 
 <p align="center">
-  <a href="https://www.giacomoferlaino.com/en/"><strong>giacomoferlaino.com</strong></a> · <a href="https://cal.com/giaco-ferla">book a call</a> · <a href="mailto:contact@giacomoferlaino.com">contact@giacomoferlaino.com</a>
+  For a project, a role or a question:<br>
+  <a href="https://www.giacomoferlaino.com/en/"><strong>giacomoferlaino.com</strong></a> ·
+  <a href="https://cal.com/giaco-ferla">book a call</a> ·
+  <a href="mailto:contact@giacomoferlaino.com">contact@giacomoferlaino.com</a> ·
+  <a href="https://www.linkedin.com/in/giacomo-ferlaino/">LinkedIn</a> ·
+  <a href="https://x.com/GFerlaino_">X</a>
 </p>
