@@ -150,10 +150,11 @@ Led architecture and development of the e-commerce platform, from scoping to pro
 **Independent IT consultant** · development, integrations and technical consulting for SMEs and startups  
 Freelance · Oct 2020 - Nov 2025 · Italy and remote
 
-- **APL System** (2022-2025) · analyst developer: built from scratch *Contratti APL*, the in-house CRM for e-invoices and contracts; integrated bulk invoice sending with the FTPA TosNet REST APIs; managed a fleet of VMware ESXi virtual machines, in-house and at clients' sites; coordinated the new company website.  
+- **[APL System](https://www.aplsystem.it/)** (2022-2025) · analyst developer: built from scratch *Contratti APL*, the in-house CRM for e-invoices and contracts; integrated bulk invoice sending with the FTPA TosNet REST APIs; managed a fleet of VMware ESXi virtual machines, in-house and at clients' sites; coordinated the new company website.  
   `Visual FoxPro 9` `SQL Server` `REST API` `VMware ESXi` `WordPress`
-- **DenunciaOnline** (2024) · back-end developer: APIs, webhooks, Slack and Calendly integrations.  
+- **[DenunciaOnline](https://www.denunciaonline.eu/)** (2024) · back-end developer: APIs, webhooks, Slack and Calendly integrations.  
   `JavaScript` `React` `REST API` `Bitbucket`
+- **[Labconsulenze](https://www.labconsulenze.it/)** (2020-2022) · technical contact for municipal police departments: requirements gathering, technical advice and officer training.
 - **Client websites**: [rosaneldeserto.it](https://rosaneldeserto.it/) (Flazio), boskiebowloskie.com (Webflow).
 
 </td>
